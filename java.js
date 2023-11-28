@@ -1,6 +1,6 @@
 function añadirPalabra(){
-    const data = document.querySelector("#usertext").value
-    console.log=data
+    const data = document.querySelector("#user_text").value
+    console.log(data)
     var element = document.createElement("p");
     console.log(element) 
     element.innerHTML = "hola mundo"
